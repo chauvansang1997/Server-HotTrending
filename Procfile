@@ -1,1 +1,1 @@
-web: mvn exec:java -Dexec.mainClass="server.server_hottrending.server"
+web: java -cp target/Server_HotTrending-1.0-SNAPSHOT.jar server.server_hottrending

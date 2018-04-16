@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>server</groupId>
+    <groupId>server.server_hottrending</groupId>
     <artifactId>Server_HotTrending</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+	<name>Joda-Time</name>
+  <version>2.9.9</version>
+  <description>Date and time library to replace JDK date handling</description>
+  <url>http://www.joda.org/joda-time/</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -21,21 +25,5 @@
 
 
   </dependencies>
- <build>
-    <plugins>
-	   <plugin>
-               <groupId>org.codehaus.mojo</groupId>
-               <artifactId>exec-maven-plugin</artifactId>
-               <version>3</version>
-               <configuration>
-					<executable>maven</executable>
-                   <mainClass>server.server_hottrending.server</mainClass>
-				   <arguments>
-					  <argument>foo</argument>
-					  <argument>bar</argument>
-					</arguments>
-               </configuration>
-           </plugin>
-    </plugins>
-  </build>
+
 </project>
