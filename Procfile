@@ -1,1 +1,1 @@
-web: java -jar target/Server-HotTrending.jar
+web: java -classpath java -classpath C:\Peter\Michael\Lazarus\server
