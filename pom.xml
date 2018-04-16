@@ -5,10 +5,9 @@
     <artifactId>Server_HotTrending</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-	<name>Joda-Time</name>
-  <version>2.9.9</version>
+	 <url>http://github.com/heroku/heroku-maven-plugin</url>
+  <name>Heroku SDK Parent</name>
   <description>Date and time library to replace JDK date handling</description>
-  <url>http://www.joda.org/joda-time/</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
