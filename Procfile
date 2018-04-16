@@ -1,1 +1,1 @@
-web: java -classpath java -classpath C:\Peter\Michael\Lazarus\server
+web: java  -classpath src\main\java\server\server_hottrending\server
