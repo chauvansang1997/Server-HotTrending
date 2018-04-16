@@ -1,1 +1,1 @@
-web: java -jar target/server.server_hottrending.server.jar
+web: mvn exec:java -Dexec.mainClass="server.server_hottrending.server"
