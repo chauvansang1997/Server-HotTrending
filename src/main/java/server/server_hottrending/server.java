@@ -87,6 +87,7 @@ public class server {
        return page.getElementById("USNOclk").asText();
     }
      public static void main(String[] args) throws Exception {
-       submittingForm();
+       //submittingForm();
+        System.out.println("OK tahnh con");
     }
 }
