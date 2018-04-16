@@ -1,1 +1,1 @@
-web: java -jar target/server.server_hottrending.server.jar
+web: java -jar target/lib/server.server_hottrending.server.jar
