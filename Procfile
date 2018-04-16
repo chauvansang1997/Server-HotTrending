@@ -1,1 +1,1 @@
-web: java  -classpath src\main\java\server\server_hottrending\server
+web: java -jar target/Server-HotTrending.jar
