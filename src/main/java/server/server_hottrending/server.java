@@ -29,7 +29,7 @@ public class server {
     
     private static  String test;
     private static  String id;
-      private static  HtmlDivision division;
+    private static  HtmlDivision division;
     public static boolean checkReponse(HtmlPage page)
     {
         
@@ -87,7 +87,7 @@ public class server {
        return page.getElementById("USNOclk").asText();
     }
      public static void main(String[] args) throws Exception {
-       //submittingForm();
-        System.out.println("OK tahnh con");
+       submittingForm();
+       // System.out.println("OK tahnh con");
     }
 }
