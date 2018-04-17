@@ -1,1 +1,1 @@
-web: java -cp target/Server_HotTrending-1.0-SNAPSHOT-jar-with-dependencies server.server_hottrending.server
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* server.server_hottrending.server
